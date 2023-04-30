@@ -92,7 +92,7 @@ function NavbarA() {
               type="search"
               placeholder="Search"
               className="me-2"
-              style={{ background: "transparent", borderRadius: "20px" }}
+              style={{ background: "transparent", borderRadius: "20px" ,color:"white"}}
             />
             <CgProfile style={{ color: "white" ,height:"30px", width:"30px",paddingTop:"5px"}} />
            {" "}
