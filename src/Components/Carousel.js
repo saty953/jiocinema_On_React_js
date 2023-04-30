@@ -1,16 +1,17 @@
 import Carousel from "react-bootstrap/Carousel";
-import "../App.css";
 import { Button } from "react-bootstrap";
 function Carouel() {
   return (
     <Carousel>
       <Carousel.Item style={{ height: "90vh" }}>
-        <img
-          className="d-block w-100"
-          src="https://v3img.voot.com/resizeHigh,w_1920,h_1080/v3Storage/assets/dc_vs_srh_carousel-1682773025003.jpg"
-          alt="First slide"
-        />
-
+        <div style={{ boxShadow: "0 0 300px rgba(0,0,0,0.9) inset" }}>
+          <img
+            className="d-block w-100 vignette"
+            src="https://v3img.voot.com/resizeHigh,w_1920,h_1080/v3Storage/assets/dc_vs_srh_carousel-1682773025003.jpg"
+            alt="First slide"
+        
+          />
+        </div>
         <div style={{ display: "flex" }} className="carousel-caption">
           <Button
             style={{
@@ -31,8 +32,9 @@ function Carouel() {
             style={{
               color: "White",
               lineHeight: "1.2",
-              fontSize: "2.3rem",
+              fontSize: "5.3rem",
               fontWeight: "1700",
+              textShadow: "2px 2px #FF0000",
             }}
           >
             <h1>DC vs SRH</h1>
@@ -62,9 +64,16 @@ function Carouel() {
           >
             WATCH
           </Button>
-          <div style={{ color: "red" }}>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.5rem",
+              fontWeight: "1700",
+              textShadow: "2px 2px #FF0000",
+            }}
+          >
+            <h1>KKR vs GT</h1>
+            <p>KKR elect to bowel first.</p>
           </div>
         </div>
       </Carousel.Item>
@@ -90,9 +99,16 @@ function Carouel() {
           >
             WATCH
           </Button>
-          <div style={{ color: "red" }}>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.5rem",
+              fontWeight: "1700",
+              textShadow: "2px 2px #FF0000",
+            }}
+          >
+            <h1>INSIDERS</h1>
+            <p>Let's see inside the mind of layers and staffs.</p>
           </div>
         </div>
       </Carousel.Item>
@@ -118,9 +134,16 @@ function Carouel() {
           >
             WATCH
           </Button>
-          <div style={{ color: "red" }}>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.5rem",
+              fontWeight: "1700",
+              textShadow: "2px 2px #FF0000",
+            }}
+          >
+            <h1>DC vs SRH</h1>
+            <h5>SRH elected to bat first.</h5>
           </div>
         </div>
       </Carousel.Item>
@@ -152,9 +175,16 @@ function Carouel() {
           >
             WATCH
           </Button>
-          <div style={{ color: "red" }}>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.5rem",
+              fontWeight: "1700",
+              textShadow: "2px 2px #FF0000",
+            }}
+          >
+            <h1>KKR vs GT</h1>
+            <p>KKR elect to bowel first.</p>
           </div>
         </div>
       </Carousel.Item>
@@ -180,9 +210,16 @@ function Carouel() {
           >
             WATCH
           </Button>
-          <div style={{ color: "red" }}>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.5rem",
+              fontWeight: "1700",
+              textShadow: "2px 2px #FF0000",
+            }}
+          >
+            <h1>INSIDERS</h1>
+            <p>Let's see inside the mind of layers and staffs.</p>
           </div>
         </div>
       </Carousel.Item>
